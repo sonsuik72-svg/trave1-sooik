@@ -2,53 +2,173 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>여행하는 수익 | Travel Sooik</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>여행하는 수익 | Travel Vlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
-      background: #0f172a;
-      color: #fff;
-      text-align: center;
+      background: #0b0b0b;
+      color: #f5f5f5;
+      line-height: 1.7;
     }
-    header {
-      padding: 60px 20px;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 10px;
-    }
-    p {
-      opacity: 0.85;
-    }
+
     a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(
+          rgba(0,0,0,0.6),
+          rgba(0,0,0,0.9)
+        ),
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80")
+        center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 12px;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      opacity: 0.85;
+      font-size: 1.1rem;
+    }
+
+    .btn {
       display: inline-block;
       margin-top: 30px;
-      padding: 14px 28px;
-      background: #ef4444;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      padding: 14px 32px;
+      border: 1px solid #fff;
+      border-radius: 40px;
+      transition: 0.3s;
     }
+
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 90px 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      opacity: 0.9;
+    }
+
+    .tags span {
+      display: inline-block;
+      border: 1px solid #444;
+      padding: 8px 18px;
+      border-radius: 30px;
+      margin: 6px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
+    .videos iframe {
+      width: 100%;
+      height: 315px;
+      border-radius: 14px;
+      margin-bottom: 24px;
+    }
+
     footer {
-      margin-top: 60px;
-      font-size: 0.8rem;
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 0.85rem;
       opacity: 0.6;
     }
   </style>
 </head>
+
 <body>
+
+  <!-- HERO -->
   <header>
-    <h1>여행하는 수익 ✈️</h1>
-    <p>혼자 떠나는 여행, 그 기록과 이야기</p>
-    <a href="https://www.youtube.com/channel/UCqVlXxjQoUshLuueWGrp6yA" target="_blank">
-      유튜브 채널 바로가기
-    </a>
+    <div>
+      <h1>여행하는 수익</h1>
+      <p>혼자 떠나고, 걸으며 기록합니다</p>
+      <a class="btn" href="https://www.youtube.com/channel/UCqVlXxjQoUshLuueWGrp6yA" target="_blank">
+        ▶ 유튜브 채널 바로가기
+      </a>
+    </div>
   </header>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About</h2>
+    <p>
+      안녕하세요. <strong>여행하는 수익</strong>입니다.<br><br>
+      혼자 여행하며 걷고, 보고, 느낀 순간들을 기록합니다.<br>
+      화려한 관광지보다 골목과 로컬, 그리고 혼자 걷는 시간을 좋아합니다.<br><br>
+      빠르게 소비되는 여행이 아닌,<br>
+      <strong>천천히 남는 여행</strong>을 담고 있습니다.
+    </p>
+  </section>
+
+  <!-- STYLE -->
+  <section>
+    <h2>여행 스타일</h2>
+    <div class="tags">
+      <span>혼자 여행</span>
+      <span>도보 & 대중교통</span>
+      <span>로컬 음식</span>
+      <span>현실 여행</span>
+      <span>다큐 감성</span>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section>
+    <h2>대표 영상</h2>
+    <div class="videos">
+      <!-- 유튜브 영상 ID만 바꿔 -->
+      <iframe src="https://www.youtube.com/channel/UCqVlXxjQoUshLuueWGrp6yA" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/channel/UCqVlXxjQoUshLuueWGrp6yA" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section>
+    <h2>장기 여행 프로젝트</h2>
+    <p>
+      6개월 장기 여행을 기록합니다.<br>
+      여행 루트, 체류 일상, 현실적인 비용까지<br>
+      실제 경험을 바탕으로 공유합니다.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📧 Email: your@email.com<br>
+      ▶ YouTube: 여행하는 수익
+    </p>
+  </section>
+
   <footer>
-    © Travel Sooik
+    © 여행하는 수익 | Travel Vlog
   </footer>
+
 </body>
 </html>
