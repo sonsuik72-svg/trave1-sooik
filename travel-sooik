@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>여행하는 수익 | Travel Vlog</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      background: #111;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+                  url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee") center/cover;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 14px 28px;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .tags span {
+      display: inline-block;
+      border: 1px solid #555;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .videos iframe {
+      width: 100%;
+      height: 315px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 메인 -->
+  <header>
+    <h1>여행하는 수익</h1>
+    <p>혼자 떠나고, 걸으며 기록합니다</p>
+    <a class="btn" href="https://www.youtube.com" target="_blank">
+      ▶ 유튜브 구독하기
+    </a>
+  </header>
+
+  <!-- 소개 -->
+  <section>
+    <h2>About</h2>
+    <p>
+      안녕하세요. <strong>여행하는 수익</strong>입니다.<br><br>
+      혼자 여행하며 걷고, 보고, 느낀 순간들을 기록합니다.<br>
+      화려한 관광지보다 골목과 로컬, 그리고 혼자 걷는 시간을 좋아합니다.<br><br>
+      빠르게 소비되는 여행이 아니라<br>
+      <strong>천천히 남는 여행</strong>을 담고 있습니다.
+    </p>
+  </section>
+
+  <!-- 스타일 -->
+  <section>
+    <h2>여행 스타일</h2>
+    <div class="tags">
+      <span>혼자 여행</span>
+      <span>도보 & 대중교통</span>
+      <span>로컬 음식</span>
+      <span>현실 여행</span>
+      <span>다큐 감성</span>
+    </div>
+  </section>
+
+  <!-- 영상 -->
+  <section>
+    <h2>대표 영상</h2>
+    <div class="videos">
+      <!-- 유튜브 영상 ID만 교체 -->
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- 프로젝트 -->
+  <section>
+    <h2>장기 여행 프로젝트</h2>
+    <p>
+      6개월 장기 여행을 기록합니다.<br>
+      여행 루트, 체류 일상, 현실적인 비용까지<br>
+      실제 경험을 바탕으로 공유합니다.
+    </p>
+  </section>
+
+  <!-- 연락 -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📧 Email: your@email.com<br>
+      ▶ YouTube: 여행하는 수익
+    </p>
+  </section>
+
+  <footer>
+    © 여행하는 수익 | Travel Vlog
+  </footer>
+
+</body>
+</html>
